@@ -1,0 +1,41 @@
+header{
+}
+header>div{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header h1{
+  width: 80px;
+}
+.icons{
+  display: flex;
+}
+.icons>li{
+  margin: 0 10px;
+}
+.icons>li>a{
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+nav{
+  background-color: #f2f2f2;
+}
+nav>.bars{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+nav>.bars>li{
+  margin: 0 65px;
+}
+nav>.bars>li>a{
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}

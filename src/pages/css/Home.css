@@ -1,0 +1,47 @@
+h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+article{
+  width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#box01{
+  background: url('../../assets/main.png') no-repeat;
+  height: 100vh;
+  position: relative;
+}
+#box01>dl{
+  color: #fff;
+  position: absolute;
+  left: 400px; top: 430px;
+}
+#box01>dl>dt{
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+#box01>dl>dd{
+  font-size: 15px;
+}
+#box03>div{
+  background: url('../../assets/bestseller.png') no-repeat;
+  height: 100vh;  
+  position: relative;
+}
+#box03>div>dl{
+  position: absolute;
+  left: 200px; top: 200px;
+}
+#box03>div>dl>dt{
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+#box03>div>dl>dd{
+  font-size: 15px;
+}
+#box03>div>dl>dd:last-child{
+  border: 2px solid #000;
+  width: 200px; height: 50px;
+}

@@ -1,0 +1,25 @@
+.pic{
+  width: calc(25% - 1em);
+  margin: 0 0.5em 1em;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.pic>img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.pic dt{
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.pic dt>span{
+  color: rgb(253, 117, 13);
+  margin-right: 10px;
+}
+.pic dt>a{
+}
+.pic dd{
+  text-align: justify;
+  color: #666;
+}
